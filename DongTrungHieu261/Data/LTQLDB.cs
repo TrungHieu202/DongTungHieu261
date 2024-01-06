@@ -13,4 +13,6 @@ using DongTrungHieu261.Models;
         }
 
         public DbSet<DongTrungHieu261.Models.LopHoc> LopHoc { get; set; } = default!;
+
+        public DbSet<DongTrungHieu261.Models.SinhVien> SinhVien { get; set; } = default!;
     }

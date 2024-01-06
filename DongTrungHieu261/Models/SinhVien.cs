@@ -12,7 +12,7 @@ public class SinhVien{
      [Display(Name = "Mã Lớp")]
     public string? MaLop { get; set; }
 
-    [ForeignKey("maLop")]
+    [ForeignKey("MaLop")]
     public LopHoc? LopHoc { get; set; }
 
 }
